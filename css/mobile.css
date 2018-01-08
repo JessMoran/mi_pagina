@@ -1,6 +1,6 @@
-@media (max-width: 768px){
+@media (max-width: 768px){ /* se estipula el tamaño que debe considerar para aplicar los estilos siguientes*/
 
-  a{
+  a{ /*se da un display none para que el menu en desktop se oculte en el tamaño mobile*/
     display: none;
   }
 
@@ -10,7 +10,7 @@
     width: 60px;
   }
 
-  .info{
+  .info{ /*se cambia el tamaño cuando el screen es menor*/
     width: calc(100% - 20px);
   }
 
@@ -18,11 +18,11 @@
     height: 200px;
   }
 
-  .products{
+  .products{ /*se cambia el tamaño cuando el screen es menor*/
     width: calc(100% - 20px);
   }
 
-    #more{
+    #more{ /*se hace visible el icono que hace cambio con el menu inicial*/
     color:  #4fad52;
     display: inline-block;
   }

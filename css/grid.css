@@ -3,7 +3,7 @@
 }
 
 body{
-  margin: 0;
+  margin: 0; /* se da un margin 0 para lograr quede la pantalla completo */
 }
 
 #container{
@@ -13,7 +13,7 @@ body{
   width: 100%;
 }
 
-.row:before,
+.row:before, /* se da estilo a los rows */
 .row:after{
   content: " ";
   display: table;
@@ -23,7 +23,7 @@ body{
   clear:both;
 }
 
-[class*="column-"]{
+[class*="column-"]{ /*estilos y tamaños en todas las columnas */
   float: left;
   min-height: 80px;
   margin: 10px;

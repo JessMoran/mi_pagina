@@ -1,4 +1,4 @@
-main{
+main{ /* se da estilo a las etiquetas principales*/
   background-color: #fff;
   border: 1px solid #a9dc6e;
 }
@@ -26,11 +26,11 @@ footer{
   text-align: center;
 }
 
-#more{
+#more{ /* se da un display none para que no se logre ver en un tamaño max. de 1200px*/
   display: none;
 }
 
-#principal{
+#principal{ /* estos son estilos especificos de los elementos en html*/
   height: 400px;
   width: 100%;
 }
