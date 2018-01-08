@@ -1,0 +1,29 @@
+@media (max-width: 768px){
+
+  a{
+    display: none;
+  }
+
+  .logo{
+    font-size: 20px;
+    height: 70px;
+    width: 60px;
+  }
+
+  .info{
+    width: calc(100% - 20px);
+  }
+
+  #principal{
+    height: 200px;
+  }
+
+  .products{
+    width: calc(100% - 20px);
+  }
+
+    #more{
+    color:  #4fad52;
+    display: inline-block;
+  }
+}

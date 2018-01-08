@@ -1,0 +1,56 @@
+main{
+  background-color: #fff;
+  border: 1px solid #a9dc6e;
+}
+
+h1{
+  color: #4fad52;
+}
+button{
+  background:#d8f9d6;
+  border-radius: 5px;
+  color: #4fad52;
+  font-size: 15px;
+  height: 30px;
+  width: 150px;
+}
+
+img{
+  height: 300px;
+  width: 300px;
+}
+
+footer{
+  background: #a9dc6e;
+  color: #4fad52;
+  text-align: center;
+}
+
+#more{
+  display: none;
+}
+
+#principal{
+  height: 400px;
+  width: 100%;
+}
+
+.logo{
+  color: #a9dc6e;
+  font-size: 30px;
+  height: 80px;
+  width: 70px;
+}
+
+.menu{
+  color: #4fad52;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.cards{
+  border: 1px solid #4fad52;
+  padding: 10px;
+  text-align: center;
+
+}
