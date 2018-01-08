@@ -55,5 +55,6 @@ body{
 }
 
 .column-12{
+  margin: 0;
   width: calc(100%  -  20px);
 }
